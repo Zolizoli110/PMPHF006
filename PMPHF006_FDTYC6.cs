@@ -11,17 +11,7 @@ namespace PMPHF006
     {
       ReadIn();
       Sort();
-      WriteOut();
       Console.WriteLine(moves);
-    }
-
-    public static void WriteOut()
-    {
-      for (int i = 0; i < array.Length; i++)
-      {
-        Console.Write(array[i] + " ");
-      }
-      Console.WriteLine();
     }
 
     public static void ReadIn()
